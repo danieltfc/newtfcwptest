@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "12709ef47e69594fcde22153da14444e",
+    "content-hash": "8682615dabf7cbfa99b8f4c345df4fd0",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -377,8 +377,7 @@
             "dist": {
                 "type": "path",
                 "url": "themes/twentyfifteen-child",
-                "reference": "0cda05d4722fec563fdfb4966c21db166280edba",
-                "shasum": null
+                "reference": "0cda05d4722fec563fdfb4966c21db166280edba"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -763,6 +762,7 @@
                 "array_column",
                 "column"
             ],
+            "abandoned": true,
             "time": "2015-03-20T22:07:39+00:00"
         },
         {
@@ -1695,9 +1695,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/amazon-s3-and-cloudfront.0.9.12.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/amazon-s3-and-cloudfront.0.9.12.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1715,9 +1713,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/amazon-web-services.0.3.7.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/amazon-web-services.0.3.7.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1735,15 +1731,31 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/sendgrid-email-delivery-simplified.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/sendgrid-email-delivery-simplified.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/sendgrid-email-delivery-simplified/"
+        },
+        {
+            "name": "wpackagist-theme/astra",
+            "version": "1.8.7",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/astra/",
+                "reference": "1.8.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/astra.1.8.7.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/astra/"
         },
         {
             "name": "wpackagist-theme/twentyfifteen",
@@ -1755,9 +1767,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentyfifteen.1.7.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/theme/twentyfifteen.1.7.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
