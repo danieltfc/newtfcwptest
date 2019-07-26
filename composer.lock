@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "babdd6d4caa5639e14ffe96da0a27be7",
+    "content-hash": "3c1ff7a9438d2007e0c627e83dba93da",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -1740,6 +1740,24 @@
             "homepage": "https://wordpress.org/plugins/astra-sites/"
         },
         {
+            "name": "wpackagist-plugin/astra-widgets",
+            "version": "1.1.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/astra-widgets/",
+                "reference": "tags/1.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/astra-widgets.1.1.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/astra-widgets/"
+        },
+        {
             "name": "wpackagist-plugin/elementor",
             "version": "2.6.6",
             "source": {
@@ -1776,6 +1794,24 @@
             "homepage": "https://wordpress.org/plugins/elementor-addon-widgets/"
         },
         {
+            "name": "wpackagist-plugin/header-footer-elementor",
+            "version": "1.1.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/header-footer-elementor/",
+                "reference": "tags/1.1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/header-footer-elementor.1.1.2.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/header-footer-elementor/"
+        },
+        {
             "name": "wpackagist-plugin/sendgrid-email-delivery-simplified",
             "version": "1.10.7",
             "source": {
@@ -1792,6 +1828,42 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/sendgrid-email-delivery-simplified/"
+        },
+        {
+            "name": "wpackagist-plugin/woo-cart-abandonment-recovery",
+            "version": "1.1.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woo-cart-abandonment-recovery/",
+                "reference": "tags/1.1.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woo-cart-abandonment-recovery.1.1.6.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woo-cart-abandonment-recovery/"
+        },
+        {
+            "name": "wpackagist-plugin/woocommerce",
+            "version": "3.6.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woocommerce/",
+                "reference": "tags/3.6.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.3.6.5.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woocommerce/"
         },
         {
             "name": "wpackagist-theme/astra",
