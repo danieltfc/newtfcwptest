@@ -3,10 +3,10 @@
 define('WP_CONTENT_DIR', dirname(__FILE__) . '/wp-content/');
 
 $db = array_merge(['port' => 3306], parse_url(getenv('JAWSDB_URL')?:getenv('CLEARDB_DATABASE_URL')));
-define('DB_NAME',     substr($db['nwvfl7x4qfhvssop'], 1));
-define('DB_USER',     $db['qlfpqfwm8bpgwyvl']);
-define('DB_PASSWORD', $db['s4p09skcjsn3bofy']);
-define('DB_HOST',     $db['tj5iv8piornf713y.cbetxkdyhwsb.us-east-1.rds.amazonaws.com'].':'.$db['3306']);
+define('DB_NAME',     substr($db['path'], 1));
+define('DB_USER',     $db['user']);
+define('DB_PASSWORD', $db['pass']);
+define('DB_HOST',     $db['host'].':'.$db['port']);
 define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
 $table_prefix  = 'wp_';
